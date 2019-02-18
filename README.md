@@ -43,7 +43,7 @@ If you get `"Error, command not found"` run `gem install jekyll` to install it u
 ### Run this repository
 Clone the repository, and `cd` into it:
 ```sh
-$ git clone git@github.com:ONEKOOK/onekook.github.io.git
+$ git clone https://github.com/ONEKOOK/onekook.github.io.git
 $ cd onekook.github.io
 ```
 

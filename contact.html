@@ -20,7 +20,7 @@ permalink: /contact/
 <!-- contact form start -->
 <section id="contact-form">
   <div class="container">
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <form>
@@ -46,7 +46,7 @@ permalink: /contact/
           </form>
         </div>
       </div>
-    </div>
+    </div> -->
     <div id="contact-box" class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
@@ -91,8 +91,21 @@ permalink: /contact/
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <h2>We Also Count In Google Map</h2>
-            <div class="google-map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.472979439986!2d-73.97769068489596!3d40.7516207793276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2590247c56379%3A0x15e13bea38b43e18!2sChrysler+Building!5e0!3m2!1sen!2sus!4v1477406538220" width="555" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.13&key=5a3445cb9146a7146b17864d46b2df0a"></script>
+            <div class="google-map" id="container">
+                <script>
+                  // 创建一个 Marker 实例：
+                  var map = new AMap.Map('container');
+                  var marker = new AMap.Marker({
+                      resizeEnable: true,
+                      position: [120.30133,30.404205],
+                      title: '理想银泰城',
+                      zoom: 16
+                  });
+                  // 将创建的点标记添加到已有的地图实例：
+                  map.add(marker);
+                </script>
+              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.472979439986!2d-73.97769068489596!3d40.7516207793276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2590247c56379%3A0x15e13bea38b43e18!2sChrysler+Building!5e0!3m2!1sen!2sus!4v1477406538220" width="555" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> -->
             </div>
         </div>
       </div>

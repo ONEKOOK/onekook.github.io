@@ -94,14 +94,22 @@ permalink: /contact/
           <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.13&key=5a3445cb9146a7146b17864d46b2df0a"></script>
             <div class="google-map" id="container">
                 <script>
-                  // 创建一个 Marker 实例：
-                  var map = new AMap.Map('container');
-                  var marker = new AMap.Marker({
+                  // 创建map
+                  var map = new AMap.Map('container', {
                       resizeEnable: true,
-                      position: [120.30133,30.404205],
-                      title: '理想银泰城',
-                      zoom: 16
+                      zoom: 15,//级别
+                      center: [120.30133,30.404205],//中心点坐标
                   });
+                  // 创建一个 Marker 实例：
+                  var marker = new AMap.Marker({
+                      position: [120.30133,30.404205],
+                      titile: "理想银泰城"
+                  });
+                  // marker.setLabel({
+                  //     //修改label相对于maker的位置
+                  //     offset: new AMap.Pixel(20, 20),
+                  //     content: "<div class='info'>杭州玩客云科技有限公司</div>"
+                  // });
                   // 将创建的点标记添加到已有的地图实例：
                   map.add(marker);
                 </script>

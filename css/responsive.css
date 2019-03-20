@@ -194,6 +194,9 @@ px      68    160    252    */
   #slider .block p {
     font-size: 13px;
   }
+  #slider .block p.slogan {
+    font-size: 40px;
+  }
   /*--
 	wrapper Start 
 --*/

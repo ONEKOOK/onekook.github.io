@@ -384,7 +384,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
+  /* padding-left: 90px; */
   text-align: center;
 }
 #global-header .block h1 {
@@ -716,7 +716,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .google-map {
   position: relative;
-  width: 555px;
+  max-width: 555px;
   height: 300px;
 }
 .google-map #map {

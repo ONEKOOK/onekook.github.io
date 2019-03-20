@@ -137,6 +137,10 @@ font header .navbar-default .navbar-nav li a:hover {
   font-weight: 300;
   letter-spacing: 3px;
 }
+#slider .block p.slogan {
+  font-size: 80px;
+  color: white;
+}
 /*--
 	wrapper Start
 --*/

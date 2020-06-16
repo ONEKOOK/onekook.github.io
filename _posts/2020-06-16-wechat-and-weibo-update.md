@@ -11,5 +11,4 @@ title: 公司微信号和微博更新
 
 ### 玩客云微博账号
 
-![玩客云微博账号](../img/onekook/weibo.jpeg)
-![玩客云微博账号]({{ site.baseurl }}/img/onekook/weibo.jpeg)
+![玩客云微博账号](/img/onekook/weibo.jpeg)

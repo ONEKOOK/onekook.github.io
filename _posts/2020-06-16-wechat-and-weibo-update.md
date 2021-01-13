@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 公司微信号和微博更新
+author: onekook
 ---
 
 ## 近期更新了公司微信号和微博账号，让交流更便捷

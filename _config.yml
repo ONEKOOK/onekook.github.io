@@ -23,6 +23,8 @@ logo: "/assets/logo.png"
 # Build settings
 markdown: kramdown
 
+timezone: Asia/Shanghai
+
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
 
